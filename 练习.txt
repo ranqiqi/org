@@ -1,0 +1,8 @@
+第二种方式不需要克隆，而是需要把本地仓库和远程仓库连接起来。
+1、通过git init创建一 个本地仓库，然后把要提交的文件放进去
+2、cd进这个本地仓库,然后还是那个git add .提交
+3、还是通过git commit -m "对文件的描述"提交到本地仓库
+	远程	提交 库别名	仓库地址
+4、git remote add class https://github.com/stayOnTheSurface/classOne.git
+	添加	库别名 master分支的意思
+5、git push class master
